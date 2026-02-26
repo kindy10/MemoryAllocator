@@ -1,0 +1,22 @@
+# --- Compilateur et Build ---
+cmake-build-debug/
+cmake-build-release/
+bin/
+obj/
+*.exe
+
+# --- Fichiers générés par l'allocateur ---
+*.json
+*.html
+stress_test_final.json
+Heap.html
+
+# --- Python ---
+__pycache__/
+.venv/
+.pytest_cache/
+
+# --- IDE (CLion, VS Code, etc.) ---
+.idea/
+.vscode/
+.DS_Store
